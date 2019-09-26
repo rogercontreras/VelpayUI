@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02887980631F5AA8BA045796F1AD91D0 /* VelpayUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41FE0CD1F67C4E5B0A13E45B23F2336 /* VelpayUI-dummy.m */; };
+		157107F42EE01F75FED99BF0071781D9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		1CFE5996457A793C1EFCD057E633021E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7CCE1D498B168162DE001943E9BF986D /* Pods-VelpayUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FDCADB50AA6F4C2E0E809FA9102BB9E /* Pods-VelpayUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E4CD39139BD478972ECDA3ED308495E /* Pods-VelpayUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB49466BFAA9C563C5C0E467F486EB9C /* Pods-VelpayUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1F27D3A0C60C332399A8442F93C6A6E /* VelpayUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DC382B85E8C80205FBE3FD7287DA00 /* VelpayUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB84BEA1233D2868002E0910 /* VPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEA0233D2868002E0910 /* VPButton.swift */; };
+		DB84BEA3233D28C4002E0910 /* VPTextFIeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEA2233D28C4002E0910 /* VPTextFIeld.swift */; };
+		DB84BEA5233D28D6002E0910 /* VPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEA4233D28D6002E0910 /* VPView.swift */; };
+		DB84BEA7233D28EC002E0910 /* VPCheckBok.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEA6233D28EC002E0910 /* VPCheckBok.swift */; };
+		DE9CEA34B4D3C8D6D081ED8F61D9C484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E0FD0B242E5180EAAE6409BFA63B146E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4382F21CE580D1D880646374CD5E58E /* ReplaceMe.swift */; };
+		EDD2EDAA946C67B12F752EC4E789A711 /* Pods-VelpayUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F378EC4880E35B0AEB0B9564763850B /* Pods-VelpayUI_Example-dummy.m */; };
+		FB38EEE078C5D48F742099647D53E7DB /* Pods-VelpayUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8B2E7947EB83156D5690B798F994857 /* Pods-VelpayUI_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		26873D24A28DD63979A1854CA669AAE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED47B447378A0DC838F1A54EB53E4F0B;
+			remoteInfo = VelpayUI;
+		};
+		2CEE548B5A238E971363BE862925BB1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 31282E7C6FB0A7E9D386CA8A5C3C7BE5;
+			remoteInfo = "Pods-VelpayUI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01212874E8DA1D80E47CC0AC269C3BD0 /* Pods_VelpayUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VelpayUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		04B15D0795444071419F391BFD4C3BF5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		05ED1277FCEE8B87C62FE847EC9C92DB /* Pods-VelpayUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VelpayUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0CDC369DD9E8F0903D3CF36FB8975763 /* VelpayUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VelpayUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FDCADB50AA6F4C2E0E809FA9102BB9E /* Pods-VelpayUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VelpayUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		152D6B6CF56F5C115705C03E4F8E2C45 /* Pods-VelpayUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VelpayUI_Tests.modulemap"; sourceTree = "<group>"; };
+		1698D8723A81B96ACF57DB8D5F6118C0 /* Pods-VelpayUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VelpayUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		16F3B13B1F5209E66B51183A11BD6DB3 /* VelpayUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VelpayUI.xcconfig; sourceTree = "<group>"; };
+		1889EA1B41E4D23B21675B9F2CABA346 /* Pods-VelpayUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VelpayUI_Example-Info.plist"; sourceTree = "<group>"; };
+		1E39DF0B038725029591811B1CF4B222 /* Pods-VelpayUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VelpayUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		369CCCDE2AE842317B5EC0065F611DBE /* Pods-VelpayUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VelpayUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4431F0970D385A09E24C57A4F863FF19 /* Pods-VelpayUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VelpayUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		44D9C9CEBB4744C10CAEA2911FFC19D0 /* Pods-VelpayUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VelpayUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4F2D78EB538ECBD0298536E81B4ACD4C /* Pods-VelpayUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VelpayUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		73FE3BFFC00ADF86B0316B3ED0E5EE83 /* Pods-VelpayUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VelpayUI_Tests-Info.plist"; sourceTree = "<group>"; };
+		7CD18C153174104BB35E10571FB49858 /* Pods-VelpayUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VelpayUI_Example.modulemap"; sourceTree = "<group>"; };
+		85274EC1E7CFADEB414226EBDDF77C50 /* Pods_VelpayUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VelpayUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8922AD737BD675C2167B6BBFC48E30B1 /* Pods-VelpayUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VelpayUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9311E5B9060B9FC6E1A2DCA79E46BCDA /* VelpayUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VelpayUI.modulemap; sourceTree = "<group>"; };
+		93DC382B85E8C80205FBE3FD7287DA00 /* VelpayUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VelpayUI-umbrella.h"; sourceTree = "<group>"; };
+		93EC6FF54B4A5E8D03C6DC03CA3C7A30 /* VelpayUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VelpayUI-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E80AA9887B54978847BC739BC488AAD /* VelpayUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = VelpayUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F378EC4880E35B0AEB0B9564763850B /* Pods-VelpayUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VelpayUI_Example-dummy.m"; sourceTree = "<group>"; };
+		A4382F21CE580D1D880646374CD5E58E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = VelpayUI/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A8B2E7947EB83156D5690B798F994857 /* Pods-VelpayUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VelpayUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		C41FE0CD1F67C4E5B0A13E45B23F2336 /* VelpayUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VelpayUI-dummy.m"; sourceTree = "<group>"; };
+		CDA6A0C2FE8231623107BEE48D06B9BF /* Pods-VelpayUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VelpayUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DB84BEA0233D2868002E0910 /* VPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPButton.swift; sourceTree = "<group>"; };
+		DB84BEA2233D28C4002E0910 /* VPTextFIeld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPTextFIeld.swift; sourceTree = "<group>"; };
+		DB84BEA4233D28D6002E0910 /* VPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPView.swift; sourceTree = "<group>"; };
+		DB84BEA6233D28EC002E0910 /* VPCheckBok.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPCheckBok.swift; sourceTree = "<group>"; };
+		EB49466BFAA9C563C5C0E467F486EB9C /* Pods-VelpayUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VelpayUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		F126BE23127AF6BB0BEDE1682B161C7D /* VelpayUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VelpayUI-Info.plist"; sourceTree = "<group>"; };
+		F3EE86857826EC558E6AAFBDE08C9FC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2558AD2B6297ED870C2E3A2B2B5F1ECC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157107F42EE01F75FED99BF0071781D9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		641BC6E8D72174081C714AD7C247C1DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CFE5996457A793C1EFCD057E633021E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEC87C2A425D45F23AEAE1D07CD189DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9CEA34B4D3C8D6D081ED8F61D9C484 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B4BAC4A71C68367D01146B5A68D27D6 /* VelpayUI */ = {
+			isa = PBXGroup;
+			children = (
+				A4382F21CE580D1D880646374CD5E58E /* ReplaceMe.swift */,
+				CA31391B01DCF36DE55683AA32B96574 /* Pod */,
+				F3AB61CA972AC5B4A800B3EFEB7CF828 /* Support Files */,
+				DB84BEA0233D2868002E0910 /* VPButton.swift */,
+				DB84BEA2233D28C4002E0910 /* VPTextFIeld.swift */,
+				DB84BEA4233D28D6002E0910 /* VPView.swift */,
+				DB84BEA6233D28EC002E0910 /* VPCheckBok.swift */,
+			);
+			name = VelpayUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7E1178349DC7C60EF24B59C6C4FA4738 /* Pods-VelpayUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				152D6B6CF56F5C115705C03E4F8E2C45 /* Pods-VelpayUI_Tests.modulemap */,
+				369CCCDE2AE842317B5EC0065F611DBE /* Pods-VelpayUI_Tests-acknowledgements.markdown */,
+				05ED1277FCEE8B87C62FE847EC9C92DB /* Pods-VelpayUI_Tests-acknowledgements.plist */,
+				A8B2E7947EB83156D5690B798F994857 /* Pods-VelpayUI_Tests-dummy.m */,
+				73FE3BFFC00ADF86B0316B3ED0E5EE83 /* Pods-VelpayUI_Tests-Info.plist */,
+				0FDCADB50AA6F4C2E0E809FA9102BB9E /* Pods-VelpayUI_Tests-umbrella.h */,
+				4431F0970D385A09E24C57A4F863FF19 /* Pods-VelpayUI_Tests.debug.xcconfig */,
+				CDA6A0C2FE8231623107BEE48D06B9BF /* Pods-VelpayUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-VelpayUI_Tests";
+			path = "Target Support Files/Pods-VelpayUI_Tests";
+			sourceTree = "<group>";
+		};
+		8C683BE1E9BDD83171B4396FC3679284 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B4BAC4A71C68367D01146B5A68D27D6 /* VelpayUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C120971797086078C912C99B73B9765A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85274EC1E7CFADEB414226EBDDF77C50 /* Pods_VelpayUI_Example.framework */,
+				01212874E8DA1D80E47CC0AC269C3BD0 /* Pods_VelpayUI_Tests.framework */,
+				0CDC369DD9E8F0903D3CF36FB8975763 /* VelpayUI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA31391B01DCF36DE55683AA32B96574 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				04B15D0795444071419F391BFD4C3BF5 /* LICENSE */,
+				F3EE86857826EC558E6AAFBDE08C9FC5 /* README.md */,
+				9E80AA9887B54978847BC739BC488AAD /* VelpayUI.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				8C683BE1E9BDD83171B4396FC3679284 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				C120971797086078C912C99B73B9765A /* Products */,
+				D975EE6DC0161E76FAA6D89170F6049E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D975EE6DC0161E76FAA6D89170F6049E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF71C881F1501678A33ED58FDF958D5A /* Pods-VelpayUI_Example */,
+				7E1178349DC7C60EF24B59C6C4FA4738 /* Pods-VelpayUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F3AB61CA972AC5B4A800B3EFEB7CF828 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9311E5B9060B9FC6E1A2DCA79E46BCDA /* VelpayUI.modulemap */,
+				16F3B13B1F5209E66B51183A11BD6DB3 /* VelpayUI.xcconfig */,
+				C41FE0CD1F67C4E5B0A13E45B23F2336 /* VelpayUI-dummy.m */,
+				F126BE23127AF6BB0BEDE1682B161C7D /* VelpayUI-Info.plist */,
+				93EC6FF54B4A5E8D03C6DC03CA3C7A30 /* VelpayUI-prefix.pch */,
+				93DC382B85E8C80205FBE3FD7287DA00 /* VelpayUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VelpayUI";
+			sourceTree = "<group>";
+		};
+		FF71C881F1501678A33ED58FDF958D5A /* Pods-VelpayUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7CD18C153174104BB35E10571FB49858 /* Pods-VelpayUI_Example.modulemap */,
+				8922AD737BD675C2167B6BBFC48E30B1 /* Pods-VelpayUI_Example-acknowledgements.markdown */,
+				1698D8723A81B96ACF57DB8D5F6118C0 /* Pods-VelpayUI_Example-acknowledgements.plist */,
+				9F378EC4880E35B0AEB0B9564763850B /* Pods-VelpayUI_Example-dummy.m */,
+				4F2D78EB538ECBD0298536E81B4ACD4C /* Pods-VelpayUI_Example-frameworks.sh */,
+				1889EA1B41E4D23B21675B9F2CABA346 /* Pods-VelpayUI_Example-Info.plist */,
+				EB49466BFAA9C563C5C0E467F486EB9C /* Pods-VelpayUI_Example-umbrella.h */,
+				1E39DF0B038725029591811B1CF4B222 /* Pods-VelpayUI_Example.debug.xcconfig */,
+				44D9C9CEBB4744C10CAEA2911FFC19D0 /* Pods-VelpayUI_Example.release.xcconfig */,
+			);
+			name = "Pods-VelpayUI_Example";
+			path = "Target Support Files/Pods-VelpayUI_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8173E1F45A4E4EDEDCDA911F4774407D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1F27D3A0C60C332399A8442F93C6A6E /* VelpayUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2D0D012E2CA688A8CE37AF9000CBA56 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CCE1D498B168162DE001943E9BF986D /* Pods-VelpayUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D38FC1A7807A4D949BF82A3E2F4CA0D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E4CD39139BD478972ECDA3ED308495E /* Pods-VelpayUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		31282E7C6FB0A7E9D386CA8A5C3C7BE5 /* Pods-VelpayUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 096E45FE2650F3A626928AEA98AA6B80 /* Build configuration list for PBXNativeTarget "Pods-VelpayUI_Example" */;
+			buildPhases = (
+				D38FC1A7807A4D949BF82A3E2F4CA0D7 /* Headers */,
+				784D2933F0E52C62688B1FE95F88CEC9 /* Sources */,
+				2558AD2B6297ED870C2E3A2B2B5F1ECC /* Frameworks */,
+				E5CB9A2368FD125CEEDAED9FBE61FD1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F2F626A991AF0A6092E3A54947026A54 /* PBXTargetDependency */,
+			);
+			name = "Pods-VelpayUI_Example";
+			productName = "Pods-VelpayUI_Example";
+			productReference = 85274EC1E7CFADEB414226EBDDF77C50 /* Pods_VelpayUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED47B447378A0DC838F1A54EB53E4F0B /* VelpayUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7E2DDFB0EC82B7C4CA4951A5A1A8736 /* Build configuration list for PBXNativeTarget "VelpayUI" */;
+			buildPhases = (
+				8173E1F45A4E4EDEDCDA911F4774407D /* Headers */,
+				FB54881F13C5D112222848D3963C3551 /* Sources */,
+				641BC6E8D72174081C714AD7C247C1DA /* Frameworks */,
+				7C4E4C7C76D186E2AC75FA1AFA17EEF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VelpayUI;
+			productName = VelpayUI;
+			productReference = 0CDC369DD9E8F0903D3CF36FB8975763 /* VelpayUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFAEBECC6CF0501C3E6FD909C8086691 /* Pods-VelpayUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D8CBA2BAD1CC22A4C1A8EF69C16BB27 /* Build configuration list for PBXNativeTarget "Pods-VelpayUI_Tests" */;
+			buildPhases = (
+				A2D0D012E2CA688A8CE37AF9000CBA56 /* Headers */,
+				95793649E84F706116E7050927C69738 /* Sources */,
+				BEC87C2A425D45F23AEAE1D07CD189DE /* Frameworks */,
+				618792569AAA518B8C343EFD93F351A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FB1A0CCBEF44ECE198AE6B92377B624 /* PBXTargetDependency */,
+			);
+			name = "Pods-VelpayUI_Tests";
+			productName = "Pods-VelpayUI_Tests";
+			productReference = 01212874E8DA1D80E47CC0AC269C3BD0 /* Pods_VelpayUI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					31282E7C6FB0A7E9D386CA8A5C3C7BE5 = {
+						LastSwiftMigration = 1100;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C120971797086078C912C99B73B9765A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31282E7C6FB0A7E9D386CA8A5C3C7BE5 /* Pods-VelpayUI_Example */,
+				EFAEBECC6CF0501C3E6FD909C8086691 /* Pods-VelpayUI_Tests */,
+				ED47B447378A0DC838F1A54EB53E4F0B /* VelpayUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		618792569AAA518B8C343EFD93F351A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C4E4C7C76D186E2AC75FA1AFA17EEF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E5CB9A2368FD125CEEDAED9FBE61FD1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		784D2933F0E52C62688B1FE95F88CEC9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB84BEA5233D28D6002E0910 /* VPView.swift in Sources */,
+				DB84BEA7233D28EC002E0910 /* VPCheckBok.swift in Sources */,
+				DB84BEA3233D28C4002E0910 /* VPTextFIeld.swift in Sources */,
+				EDD2EDAA946C67B12F752EC4E789A711 /* Pods-VelpayUI_Example-dummy.m in Sources */,
+				DB84BEA1233D2868002E0910 /* VPButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95793649E84F706116E7050927C69738 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB38EEE078C5D48F742099647D53E7DB /* Pods-VelpayUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB54881F13C5D112222848D3963C3551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0FD0B242E5180EAAE6409BFA63B146E /* ReplaceMe.swift in Sources */,
+				02887980631F5AA8BA045796F1AD91D0 /* VelpayUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FB1A0CCBEF44ECE198AE6B92377B624 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VelpayUI_Example";
+			target = 31282E7C6FB0A7E9D386CA8A5C3C7BE5 /* Pods-VelpayUI_Example */;
+			targetProxy = 2CEE548B5A238E971363BE862925BB1A /* PBXContainerItemProxy */;
+		};
+		F2F626A991AF0A6092E3A54947026A54 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VelpayUI;
+			target = ED47B447378A0DC838F1A54EB53E4F0B /* VelpayUI */;
+			targetProxy = 26873D24A28DD63979A1854CA669AAE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		269C6BFC79A5422AE78A9A921C1C9465 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44D9C9CEBB4744C10CAEA2911FFC19D0 /* Pods-VelpayUI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VelpayUI_Example/Pods-VelpayUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VelpayUI_Example/Pods-VelpayUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		62064AA43B703AC951BDD0E4D70852A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F3B13B1F5209E66B51183A11BD6DB3 /* VelpayUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VelpayUI/VelpayUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VelpayUI/VelpayUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VelpayUI/VelpayUI.modulemap";
+				PRODUCT_MODULE_NAME = VelpayUI;
+				PRODUCT_NAME = VelpayUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7663C5947DD8C6BCC0328B5C99E833A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E39DF0B038725029591811B1CF4B222 /* Pods-VelpayUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VelpayUI_Example/Pods-VelpayUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VelpayUI_Example/Pods-VelpayUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		894343B6C4BC9D5C09E1E4BA322DE10F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16F3B13B1F5209E66B51183A11BD6DB3 /* VelpayUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VelpayUI/VelpayUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VelpayUI/VelpayUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VelpayUI/VelpayUI.modulemap";
+				PRODUCT_MODULE_NAME = VelpayUI;
+				PRODUCT_NAME = VelpayUI;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9CF65F3BD80AD877BD4F3BE89E5FAD12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA6A0C2FE8231623107BEE48D06B9BF /* Pods-VelpayUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VelpayUI_Tests/Pods-VelpayUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VelpayUI_Tests/Pods-VelpayUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E972163E66AB412AA57E98956515491A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4431F0970D385A09E24C57A4F863FF19 /* Pods-VelpayUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VelpayUI_Tests/Pods-VelpayUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VelpayUI_Tests/Pods-VelpayUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		096E45FE2650F3A626928AEA98AA6B80 /* Build configuration list for PBXNativeTarget "Pods-VelpayUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7663C5947DD8C6BCC0328B5C99E833A0 /* Debug */,
+				269C6BFC79A5422AE78A9A921C1C9465 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D8CBA2BAD1CC22A4C1A8EF69C16BB27 /* Build configuration list for PBXNativeTarget "Pods-VelpayUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E972163E66AB412AA57E98956515491A /* Debug */,
+				9CF65F3BD80AD877BD4F3BE89E5FAD12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7E2DDFB0EC82B7C4CA4951A5A1A8736 /* Build configuration list for PBXNativeTarget "VelpayUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62064AA43B703AC951BDD0E4D70852A4 /* Debug */,
+				894343B6C4BC9D5C09E1E4BA322DE10F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

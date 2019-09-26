@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Rogelio Contreras/VelpayUI'
+  s.homepage         = 'https://rogerpesp@bitbucket.org/velpay/'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rogelio Contreras' => 'rogelio.contreras@pesp.com.mx' }
-  s.source           = { :git => 'https://github.com/Rogelio Contreras/VelpayUI.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://rogerpesp@bitbucket.org/velpay/velpayui.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'

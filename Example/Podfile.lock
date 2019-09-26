@@ -1,0 +1,16 @@
+PODS:
+  - VelpayUI (0.1.0)
+
+DEPENDENCIES:
+  - VelpayUI (from `../`)
+
+EXTERNAL SOURCES:
+  VelpayUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  VelpayUI: 95489f3f62a1dad35afbd9031e0bf986b47dfc40
+
+PODFILE CHECKSUM: e2dc14a89396486439f991a1230a124fc088419c
+
+COCOAPODS: 1.7.5
