@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'VelpayUI_Example' do
+  pod 'VelpayUI', :path => '../'
+
+  target 'VelpayUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
