@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of VelpayUI.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Rogelio Contreras/VelpayUI",
+  "homepage": "https://rogerpesp@bitbucket.org/velpay/",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "Rogelio Contreras": "rogelio.contreras@pesp.com.mx"
   },
   "source": {
-    "git": "https://github.com/Rogelio Contreras/VelpayUI.git",
+    "git": "https://rogerpesp@bitbucket.org/velpay/velpayui.git",
     "tag": "0.1.0"
   },
   "platforms": {

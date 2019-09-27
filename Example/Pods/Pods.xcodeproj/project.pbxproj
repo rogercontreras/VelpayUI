@@ -13,10 +13,10 @@
 		7CCE1D498B168162DE001943E9BF986D /* Pods-VelpayUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FDCADB50AA6F4C2E0E809FA9102BB9E /* Pods-VelpayUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9E4CD39139BD478972ECDA3ED308495E /* Pods-VelpayUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EB49466BFAA9C563C5C0E467F486EB9C /* Pods-VelpayUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B1F27D3A0C60C332399A8442F93C6A6E /* VelpayUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 93DC382B85E8C80205FBE3FD7287DA00 /* VelpayUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DB84BEA1233D2868002E0910 /* VPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEA0233D2868002E0910 /* VPButton.swift */; };
-		DB84BEA3233D28C4002E0910 /* VPTextFIeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEA2233D28C4002E0910 /* VPTextFIeld.swift */; };
-		DB84BEA5233D28D6002E0910 /* VPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEA4233D28D6002E0910 /* VPView.swift */; };
-		DB84BEA7233D28EC002E0910 /* VPCheckBok.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEA6233D28EC002E0910 /* VPCheckBok.swift */; };
+		DB84BEAD233E786A002E0910 /* VPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEA9233E7869002E0910 /* VPButton.swift */; };
+		DB84BEAE233E786A002E0910 /* VPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEAA233E7869002E0910 /* VPView.swift */; };
+		DB84BEAF233E786A002E0910 /* VPCheckBok.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEAB233E7869002E0910 /* VPCheckBok.swift */; };
+		DB84BEB0233E786A002E0910 /* VPTextFIeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEAC233E786A002E0910 /* VPTextFIeld.swift */; };
 		DE9CEA34B4D3C8D6D081ED8F61D9C484 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E0FD0B242E5180EAAE6409BFA63B146E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4382F21CE580D1D880646374CD5E58E /* ReplaceMe.swift */; };
 		EDD2EDAA946C67B12F752EC4E789A711 /* Pods-VelpayUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F378EC4880E35B0AEB0B9564763850B /* Pods-VelpayUI_Example-dummy.m */; };
@@ -70,10 +70,10 @@
 		A8B2E7947EB83156D5690B798F994857 /* Pods-VelpayUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VelpayUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		C41FE0CD1F67C4E5B0A13E45B23F2336 /* VelpayUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VelpayUI-dummy.m"; sourceTree = "<group>"; };
 		CDA6A0C2FE8231623107BEE48D06B9BF /* Pods-VelpayUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VelpayUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DB84BEA0233D2868002E0910 /* VPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPButton.swift; sourceTree = "<group>"; };
-		DB84BEA2233D28C4002E0910 /* VPTextFIeld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPTextFIeld.swift; sourceTree = "<group>"; };
-		DB84BEA4233D28D6002E0910 /* VPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPView.swift; sourceTree = "<group>"; };
-		DB84BEA6233D28EC002E0910 /* VPCheckBok.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPCheckBok.swift; sourceTree = "<group>"; };
+		DB84BEA9233E7869002E0910 /* VPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPButton.swift; sourceTree = "<group>"; };
+		DB84BEAA233E7869002E0910 /* VPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPView.swift; sourceTree = "<group>"; };
+		DB84BEAB233E7869002E0910 /* VPCheckBok.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPCheckBok.swift; sourceTree = "<group>"; };
+		DB84BEAC233E786A002E0910 /* VPTextFIeld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPTextFIeld.swift; sourceTree = "<group>"; };
 		EB49466BFAA9C563C5C0E467F486EB9C /* Pods-VelpayUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VelpayUI_Example-umbrella.h"; sourceTree = "<group>"; };
 		F126BE23127AF6BB0BEDE1682B161C7D /* VelpayUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VelpayUI-Info.plist"; sourceTree = "<group>"; };
 		F3EE86857826EC558E6AAFBDE08C9FC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -110,13 +110,13 @@
 		1B4BAC4A71C68367D01146B5A68D27D6 /* VelpayUI */ = {
 			isa = PBXGroup;
 			children = (
+				DB84BEA9233E7869002E0910 /* VPButton.swift */,
+				DB84BEAB233E7869002E0910 /* VPCheckBok.swift */,
+				DB84BEAC233E786A002E0910 /* VPTextFIeld.swift */,
+				DB84BEAA233E7869002E0910 /* VPView.swift */,
 				A4382F21CE580D1D880646374CD5E58E /* ReplaceMe.swift */,
 				CA31391B01DCF36DE55683AA32B96574 /* Pod */,
 				F3AB61CA972AC5B4A800B3EFEB7CF828 /* Support Files */,
-				DB84BEA0233D2868002E0910 /* VPButton.swift */,
-				DB84BEA2233D28C4002E0910 /* VPTextFIeld.swift */,
-				DB84BEA4233D28D6002E0910 /* VPView.swift */,
-				DB84BEA6233D28EC002E0910 /* VPCheckBok.swift */,
 			);
 			name = VelpayUI;
 			path = ../..;
@@ -381,11 +381,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB84BEA5233D28D6002E0910 /* VPView.swift in Sources */,
-				DB84BEA7233D28EC002E0910 /* VPCheckBok.swift in Sources */,
-				DB84BEA3233D28C4002E0910 /* VPTextFIeld.swift in Sources */,
 				EDD2EDAA946C67B12F752EC4E789A711 /* Pods-VelpayUI_Example-dummy.m in Sources */,
-				DB84BEA1233D2868002E0910 /* VPButton.swift in Sources */,
+				DB84BEAE233E786A002E0910 /* VPView.swift in Sources */,
+				DB84BEB0233E786A002E0910 /* VPTextFIeld.swift in Sources */,
+				DB84BEAD233E786A002E0910 /* VPButton.swift in Sources */,
+				DB84BEAF233E786A002E0910 /* VPCheckBok.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
