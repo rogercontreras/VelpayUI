@@ -70,10 +70,17 @@
 		A8B2E7947EB83156D5690B798F994857 /* Pods-VelpayUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VelpayUI_Tests-dummy.m"; sourceTree = "<group>"; };
 		C41FE0CD1F67C4E5B0A13E45B23F2336 /* VelpayUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VelpayUI-dummy.m"; sourceTree = "<group>"; };
 		CDA6A0C2FE8231623107BEE48D06B9BF /* Pods-VelpayUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VelpayUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		DB84BEA9233E7869002E0910 /* VPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPButton.swift; sourceTree = "<group>"; };
-		DB84BEAA233E7869002E0910 /* VPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPView.swift; sourceTree = "<group>"; };
+		DB84BEA9233E7869002E0910 /* VPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPButton.swift; path = Example/VelpayUI/VPButton.swift; sourceTree = "<group>"; };
+		DB84BEAA233E7869002E0910 /* VPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPView.swift; path = Example/VelpayUI/VPView.swift; sourceTree = "<group>"; };
 		DB84BEAB233E7869002E0910 /* VPCheckBok.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPCheckBok.swift; sourceTree = "<group>"; };
 		DB84BEAC233E786A002E0910 /* VPTextFIeld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPTextFIeld.swift; sourceTree = "<group>"; };
+		DB8AF3BF2343B3B1004F7FD7 /* VPTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPTextView.swift; sourceTree = "<group>"; };
+		DB8AF3C02343B3B1004F7FD7 /* VPButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPButton.swift; sourceTree = "<group>"; };
+		DB8AF3C12343B3B1004F7FD7 /* VPCalculator.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VPCalculator.xib; sourceTree = "<group>"; };
+		DB8AF3C22343B3B1004F7FD7 /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		DB8AF3C32343B3B1004F7FD7 /* VPView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPView.swift; sourceTree = "<group>"; };
+		DB8AF3C42343B3B2004F7FD7 /* VPCheckBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPCheckBox.swift; sourceTree = "<group>"; };
+		DB8AF3C52343B3B2004F7FD7 /* VPCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPCalculator.swift; sourceTree = "<group>"; };
 		EB49466BFAA9C563C5C0E467F486EB9C /* Pods-VelpayUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VelpayUI_Example-umbrella.h"; sourceTree = "<group>"; };
 		F126BE23127AF6BB0BEDE1682B161C7D /* VelpayUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VelpayUI-Info.plist"; sourceTree = "<group>"; };
 		F3EE86857826EC558E6AAFBDE08C9FC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -111,6 +118,13 @@
 			isa = PBXGroup;
 			children = (
 				DB84BEA9233E7869002E0910 /* VPButton.swift */,
+				DB8AF3C02343B3B1004F7FD7 /* VPButton.swift */,
+				DB8AF3C32343B3B1004F7FD7 /* VPView.swift */,
+				DB8AF3C52343B3B2004F7FD7 /* VPCalculator.swift */,
+				DB8AF3C12343B3B1004F7FD7 /* VPCalculator.xib */,
+				DB8AF3BF2343B3B1004F7FD7 /* VPTextView.swift */,
+				DB8AF3C22343B3B1004F7FD7 /* NibView.swift */,
+				DB8AF3C42343B3B2004F7FD7 /* VPCheckBox.swift */,
 				DB84BEAB233E7869002E0910 /* VPCheckBok.swift */,
 				DB84BEAC233E786A002E0910 /* VPTextFIeld.swift */,
 				DB84BEAA233E7869002E0910 /* VPView.swift */,

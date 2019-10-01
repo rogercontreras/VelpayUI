@@ -9,10 +9,19 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var customView: VPCalculator!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+//        let customView = VPCalculator().loadNib()
+//        customView.frame = holderView.frame
+//
+//
+//        view.addSubview(customView)
     }
 
     override func didReceiveMemoryWarning() {
