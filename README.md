@@ -1,3 +1,4 @@
+
 # VelpayUI
 
 [![CI Status](https://img.shields.io/travis/Rogelio Contreras/VelpayUI.svg?style=flat)](https://travis-ci.org/Rogelio Contreras/VelpayUI)
@@ -26,4 +27,3 @@ Rogelio Contreras, rogelio.contreras@pesp.com.mx
 
 ## License
 
-VelpayUI is available under the MIT license. See the LICENSE file for more info.
