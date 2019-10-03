@@ -1,5 +1,5 @@
 PODS:
-  - VelpayUI (0.1.0)
+  - VelpayUI (0.1.1)
 
 DEPENDENCIES:
   - VelpayUI (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VelpayUI: 80714fdf07dca1479bcba0a09bd863c105ef67bf
+  VelpayUI: d62539061c1ec97f7c7386d180373cd25f549312
 
 PODFILE CHECKSUM: e2dc14a89396486439f991a1230a124fc088419c
 

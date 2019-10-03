@@ -15,6 +15,15 @@
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		693C8CC54218D8BB83E91FB8 /* Pods_VelpayUI_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E0681C61D33A31C66DFCBD /* Pods_VelpayUI_Example.framework */; };
 		D19F500717E3E0C0807A1BE2 /* Pods_VelpayUI_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8572943CD727228DC77AF056 /* Pods_VelpayUI_Tests.framework */; };
+		DB69ADFA234553C80030009C /* VPTextFIeld.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69ADF1234553C80030009C /* VPTextFIeld.swift */; };
+		DB69ADFB234553C80030009C /* VPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69ADF2234553C80030009C /* VPView.swift */; };
+		DB69ADFC234553C80030009C /* VPCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69ADF3234553C80030009C /* VPCalculator.swift */; };
+		DB69ADFD234553C80030009C /* VPCheckBok.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69ADF4234553C80030009C /* VPCheckBok.swift */; };
+		DB69ADFE234553C80030009C /* VPCheckBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69ADF5234553C80030009C /* VPCheckBox.swift */; };
+		DB69ADFF234553C80030009C /* VPCalculator.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB69ADF6234553C80030009C /* VPCalculator.xib */; };
+		DB69AE00234553C80030009C /* VPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69ADF7234553C80030009C /* VPButton.swift */; };
+		DB69AE01234553C80030009C /* VPTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69ADF8234553C80030009C /* VPTextView.swift */; };
+		DB69AE02234553C80030009C /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB69ADF9234553C80030009C /* NibView.swift */; };
 		DB84BEB2233E8FA4002E0910 /* VPView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEB1233E8FA4002E0910 /* VPView.swift */; };
 		DB84BEB4233E8FBC002E0910 /* VPButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEB3233E8FBC002E0910 /* VPButton.swift */; };
 		DB84BEB823424FFF002E0910 /* VPCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB84BEB723424FFF002E0910 /* VPCalculator.swift */; };
@@ -56,6 +65,15 @@
 		7A6DBBCDFA397C0B832A6AD3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8572943CD727228DC77AF056 /* Pods_VelpayUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VelpayUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D700163F11F0439FCFFC7A18 /* VelpayUI.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VelpayUI.podspec; path = ../VelpayUI.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DB69ADF1234553C80030009C /* VPTextFIeld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPTextFIeld.swift; path = ../VPTextFIeld.swift; sourceTree = "<group>"; };
+		DB69ADF2234553C80030009C /* VPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPView.swift; path = ../VPView.swift; sourceTree = "<group>"; };
+		DB69ADF3234553C80030009C /* VPCalculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPCalculator.swift; path = ../VPCalculator.swift; sourceTree = "<group>"; };
+		DB69ADF4234553C80030009C /* VPCheckBok.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPCheckBok.swift; path = ../VPCheckBok.swift; sourceTree = "<group>"; };
+		DB69ADF5234553C80030009C /* VPCheckBox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPCheckBox.swift; path = ../VPCheckBox.swift; sourceTree = "<group>"; };
+		DB69ADF6234553C80030009C /* VPCalculator.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = VPCalculator.xib; path = ../VPCalculator.xib; sourceTree = "<group>"; };
+		DB69ADF7234553C80030009C /* VPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPButton.swift; path = ../VPButton.swift; sourceTree = "<group>"; };
+		DB69ADF8234553C80030009C /* VPTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = VPTextView.swift; path = ../VPTextView.swift; sourceTree = "<group>"; };
+		DB69ADF9234553C80030009C /* NibView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NibView.swift; path = ../NibView.swift; sourceTree = "<group>"; };
 		DB84BEB1233E8FA4002E0910 /* VPView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPView.swift; sourceTree = "<group>"; };
 		DB84BEB3233E8FBC002E0910 /* VPButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VPButton.swift; sourceTree = "<group>"; };
 		DB84BEB723424FFF002E0910 /* VPCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VPCalculator.swift; sourceTree = "<group>"; };
@@ -168,6 +186,15 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				DB69ADF9234553C80030009C /* NibView.swift */,
+				DB69ADF7234553C80030009C /* VPButton.swift */,
+				DB69ADF3234553C80030009C /* VPCalculator.swift */,
+				DB69ADF6234553C80030009C /* VPCalculator.xib */,
+				DB69ADF4234553C80030009C /* VPCheckBok.swift */,
+				DB69ADF5234553C80030009C /* VPCheckBox.swift */,
+				DB69ADF1234553C80030009C /* VPTextFIeld.swift */,
+				DB69ADF8234553C80030009C /* VPTextView.swift */,
+				DB69ADF2234553C80030009C /* VPView.swift */,
 				D700163F11F0439FCFFC7A18 /* VelpayUI.podspec */,
 				2E222E462DED320198C9AD8F /* README.md */,
 				7A6DBBCDFA397C0B832A6AD3 /* LICENSE */,
@@ -276,6 +303,7 @@
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				DB84BEBA2342509F002E0910 /* VPCalculator.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				DB69ADFF234553C80030009C /* VPCalculator.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 				DB8AF3822342B070004F7FD7 /* VPCheckBox.xib in Resources */,
 			);
@@ -361,14 +389,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB84BEB823424FFF002E0910 /* VPCalculator.swift in Sources */,
+				DB69AE01234553C80030009C /* VPTextView.swift in Sources */,
+				DB69ADFC234553C80030009C /* VPCalculator.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				DB69ADFB234553C80030009C /* VPView.swift in Sources */,
+				DB69ADFE234553C80030009C /* VPCheckBox.swift in Sources */,
 				DB8AF3802342B05A004F7FD7 /* VPCheckBox.swift in Sources */,
 				DB84BEB2233E8FA4002E0910 /* VPView.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 				DB84BEC02342A167002E0910 /* NibView.swift in Sources */,
 				DB84BEB4233E8FBC002E0910 /* VPButton.swift in Sources */,
+				DB69ADFA234553C80030009C /* VPTextFIeld.swift in Sources */,
 				DB84BEBE23429D25002E0910 /* VPTextView.swift in Sources */,
+				DB69AE00234553C80030009C /* VPButton.swift in Sources */,
 				DB84BEBC23429BCD002E0910 /* VPTextField.swift in Sources */,
+				DB69AE02234553C80030009C /* NibView.swift in Sources */,
+				DB69ADFD234553C80030009C /* VPCheckBok.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
