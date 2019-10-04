@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VelpayUI'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'A short description of VelpayUI.'
 
 # This description is used to generate tags and improve search results.
@@ -17,12 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "Utilice este pod para crear interfaz gráfica basada en los elementos de Velpay."
 
   s.homepage         = 'https://github.com/rogercontreras/VelpayUI'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rogelio Contreras' => 'roger.contreras.vl@gmail.com' }
   s.source           = { :git => 'https://github.com/rogercontreras/VelpayUI.git', :tag => s.version.to_s }
